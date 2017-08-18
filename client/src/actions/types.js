@@ -1,0 +1,14 @@
+export const GET_PLACES = "get_places";
+export const GET_SINGLE_LOCATION_PICS = "get_single_location_pics";
+export const GET_MULTI_LOCATION_PICS = "get_multi_location_pics";
+export const GET_USER_INFO = "get_user_info";
+export const GET_POST_INFO = "get_post_info";
+export const GET_TAG_INFO = "get_tag_info";
+export const API_ERROR = "api_error";
+export const SET_ACCESS_TOKEN = "set_access_token";
+export const SET_CENTER = "set_center";
+export const GET_MAP_STATE = "get_map_state";
+export const SET_TAB = "set_tab";
+export const SET_LOADING = "set_loading";
+export const CLEAN_PICS = "clean_pics";
+export const CLEAN_POST = "clean_post";

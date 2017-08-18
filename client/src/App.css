@@ -1,0 +1,32 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+}
+
+.main{
+  display: flex;  
+  flex-direction: row; 
+  flex: 1;
+  height: 100%;  
+}
+
+.map {
+    flex: 2 0 0;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.sidepane {
+    flex: 1 0 0;
+    position: relative;
+}
+
+.get-button {
+    align-self: center;
+    position: absolute;
+    z-index: 10;
+    top: 10px;
+}
+

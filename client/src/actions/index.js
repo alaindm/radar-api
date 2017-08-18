@@ -225,7 +225,7 @@ function manageFbPermission(dispatch, getState) {
       });
     } else if (Date.now() > accessTokenExpirationTime) {
       setAccessTokenState(dispatch);
-      manageFbPermission();
+      manageFbPermission(dispatch, getState);
     } else {
       return resolve();
     }
